@@ -1,0 +1,10 @@
+h1{
+    background: #000;
+    color: red;
+    display: inline-block;
+}
+span{
+    background: #000;
+    display: block;
+    color: red;
+}
