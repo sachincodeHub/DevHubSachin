@@ -1,0 +1,29 @@
+p{
+    color: red;
+    text-decoration: underline;
+    font-size: 45px;
+}
+h1{
+    color: red;
+    background: rgb(18, 17, 17);
+    /* display: inline-block; */
+    /* text */
+
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 8px 2px 3px red ;
+    /* font */
+    font-size:xx-large;
+    font-family: sans-serif;
+   
+}
+span{
+    color: blue;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    
+
+}
