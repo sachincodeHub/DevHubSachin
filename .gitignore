@@ -1,9 +1,2 @@
-/node_modules/
-/.env
-/ANGULAR/
-/CSS/
-/HTML/
-/JAVA/
-/JAVASCRIPT/
-/REACT/
-/TYPE_SCRIPT/
+node_modules/
+.env
