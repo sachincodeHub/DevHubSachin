@@ -1,2 +1,8 @@
 node_modules/
 .env
+
+# Local backup files
+MONGOOSE_DB/.git-nested-backup/
+MONGOOSE_DB-backup.bundle
+.gitignore-temporary
+.gitignore.local-backup
