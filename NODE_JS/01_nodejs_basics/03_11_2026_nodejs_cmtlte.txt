@@ -1,0 +1,9 @@
+**Commit:** Learn Node.js Process and Events modules
+
+- Practice Node.js process module
+- Understand process.argv and process.env
+- Learn process.cwd() and process.exit()
+- Build command-line calculator
+- Learn EventEmitter class
+- Practice on(), emit(), once(), and removeListener()
+- Pass arguments through custom events
