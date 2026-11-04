@@ -1,0 +1,43 @@
+Aaj kya seekha?
+1. http module import
+2. http.createServer()
+3. req aur res
+4. .listen() method
+5. Port number
+6. Template literals ${}
+
+
+## topic cover is : ---
+
+||
+
+const http = require("http");
+
+const port = 3000;
+
+const App = http.createServer((req, res) => {
+
+    if (req.method === "GET" && req.url === "/") {
+        res.end("home")
+    }
+    else if (req.method === "GET"&&req.url === "/about"){
+        res.end("about page")
+    }
+   
+     else {
+        res.end("page not found .")
+    }
+
+    
+});
+
+App.listen(port, () => {
+    console.log(`http://localhost:${port}`);
+})
+
+Tumne kya seekha?
+1. req.url — URL check karna.
+2. req.method — HTTP method check karna.
+3. && — dono conditions check karna.
+4. if-else — conditions ke according response dena.
+5. res.end() — browser ko response bhejna.
