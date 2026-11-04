@@ -1,0 +1,69 @@
+/* home page css */
+body{
+    background-color:#f4f4f4;
+    font-family: arial,sans-serif;
+    padding: 20px;
+}
+/* nav ko style  */
+nav{
+    min-height: 40px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    
+}
+nav a:hover {
+   
+color: #00bfff;
+background-color: #444;
+transition: color 0.3s ease;
+ border-radius: 5px;
+}
+/* heading h1  */
+h1{
+    color: #222;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+/* style paragraph */
+p{
+    color: #555;
+    line-height: 1.6;
+}
+/* section css */
+section{
+    max-width: 800px;
+    background-color: white;
+    padding:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* contack  css */
+section a {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+
+}
+
+section a:hover {
+    background-color: #00bfff;
+}
