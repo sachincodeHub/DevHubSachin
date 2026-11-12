@@ -1,0 +1,503 @@
+
+[
+  {
+    "name": "Samsung Galaxy S25",
+    "description": "Samsung smartphone with 256GB storage",
+    "price": 79999,
+    "category": "Electronics",
+    "brand": "Samsung",
+    "stock": 15,
+    "images": ["https://example.com/samsung-s25.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "iPhone 16",
+    "description": "Apple smartphone with 128GB storage",
+    "price": 69999,
+    "category": "Electronics",
+    "brand": "Apple",
+    "stock": 20,
+    "images": ["https://example.com/iphone16.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "OnePlus 13",
+    "description": "OnePlus smartphone with 256GB storage",
+    "price": 64999,
+    "category": "Electronics",
+    "brand": "OnePlus",
+    "stock": 12,
+    "images": ["https://example.com/oneplus13.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Sony Wireless Headphones",
+    "description": "Wireless noise cancelling headphones",
+    "price": 4999,
+    "category": "Accessories",
+    "brand": "Sony",
+    "stock": 30,
+    "images": ["https://example.com/sony-headphones.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Dell Inspiron Laptop",
+    "description": "Laptop with Intel Core i5 processor",
+    "price": 58999,
+    "category": "Electronics",
+    "brand": "Dell",
+    "stock": 8,
+    "images": ["https://example.com/dell-laptop.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "HP Wireless Mouse",
+    "description": "Ergonomic wireless computer mouse",
+    "price": 799,
+    "category": "Accessories",
+    "brand": "HP",
+    "stock": 45,
+    "images": ["https://example.com/hp-mouse.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Logitech Keyboard",
+    "description": "Wireless keyboard for desktop computers",
+    "price": 1499,
+    "category": "Accessories",
+    "brand": "Logitech",
+    "stock": 25,
+    "images": ["https://example.com/logitech-keyboard.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Apple iPad Air",
+    "description": "Apple tablet with 128GB storage",
+    "price": 59900,
+    "category": "Electronics",
+    "brand": "Apple",
+    "stock": 10,
+    "images": ["https://example.com/ipad-air.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Canon DSLR Camera",
+    "description": "Digital camera for photography",
+    "price": 45999,
+    "category": "Electronics",
+    "brand": "Canon",
+    "stock": 6,
+    "images": ["https://example.com/canon-camera.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "JBL Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with clear sound",
+    "price": 2999,
+    "category": "Electronics",
+    "brand": "JBL",
+    "stock": 35,
+    "images": ["https://example.com/jbl-speaker.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Adidas Sports T-Shirt",
+    "description": "Comfortable sports t-shirt for men",
+    "price": 1299,
+    "category": "Clothing",
+    "brand": "Adidas",
+    "stock": 40,
+    "images": ["https://example.com/adidas-shirt.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Puma Casual Jacket",
+    "description": "Stylish casual jacket for daily wear",
+    "price": 3499,
+    "category": "Clothing",
+    "brand": "Puma",
+    "stock": 18,
+    "images": ["https://example.com/puma-jacket.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Levi's Blue Jeans",
+    "description": "Classic slim fit blue denim jeans",
+    "price": 2499,
+    "category": "Clothing",
+    "brand": "Levis",
+    "stock": 22,
+    "images": ["https://example.com/levis-jeans.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Ray-Ban Sunglasses",
+    "description": "Classic stylish sunglasses",
+    "price": 5999,
+    "category": "Accessories",
+    "brand": "Ray-Ban",
+    "stock": 14,
+    "images": ["https://example.com/rayban-sunglasses.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Fastrack Wrist Watch",
+    "description": "Analog wrist watch for everyday use",
+    "price": 1999,
+    "category": "Accessories",
+    "brand": "Fastrack",
+    "stock": 28,
+    "images": ["https://example.com/fastrack-watch.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Wildcraft Backpack",
+    "description": "Durable backpack for travel and college",
+    "price": 1799,
+    "category": "Bags",
+    "brand": "Wildcraft",
+    "stock": 32,
+    "images": ["https://example.com/wildcraft-bag.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "American Tourister Suitcase",
+    "description": "Travel suitcase with spacious storage",
+    "price": 3999,
+    "category": "Bags",
+    "brand": "American Tourister",
+    "stock": 9,
+    "images": ["https://example.com/suitcase.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Prestige Electric Kettle",
+    "description": "Electric kettle for quick water boiling",
+    "price": 1299,
+    "category": "Home Appliances",
+    "brand": "Prestige",
+    "stock": 20,
+    "images": ["https://example.com/prestige-kettle.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Philips Mixer Grinder",
+    "description": "Powerful mixer grinder for kitchen use",
+    "price": 3499,
+    "category": "Home Appliances",
+    "brand": "Philips",
+    "stock": 11,
+    "images": ["https://example.com/philips-mixer.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Milton Water Bottle",
+    "description": "Insulated stainless steel water bottle",
+    "price": 699,
+    "category": "Home",
+    "brand": "Milton",
+    "stock": 50,
+    "images": ["https://example.com/milton-bottle.jpg"],
+    "isActive": true
+  },
+  {
+    "name": "Samsung 4K Smart TV",
+    "description": "55 inch 4K Ultra HD Smart LED TV",
+    "price": 45999,
+    "category": "Electronics",
+    "brand": "Samsung",
+    "stock": 12,
+    "images": ["https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "MacBook Air M4",
+    "description": "Apple laptop for work and productivity",
+    "price": 99900,
+    "category": "Electronics",
+    "brand": "Apple",
+    "stock": 7,
+    "images": ["https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Lenovo ThinkPad Laptop",
+    "description": "Business laptop with powerful performance",
+    "price": 74999,
+    "category": "Electronics",
+    "brand": "Lenovo",
+    "stock": 9,
+    "images": ["https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Apple AirPods Pro",
+    "description": "Wireless earbuds with noise cancellation",
+    "price": 24900,
+    "category": "Accessories",
+    "brand": "Apple",
+    "stock": 25,
+    "images": ["https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Canon Mirrorless Camera",
+    "description": "Professional mirrorless digital camera",
+    "price": 89999,
+    "category": "Electronics",
+    "brand": "Canon",
+    "stock": 5,
+    "images": ["https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Nike Air Max Shoes",
+    "description": "Comfortable casual sports shoes",
+    "price": 6999,
+    "category": "Footwear",
+    "brand": "Nike",
+    "stock": 30,
+    "images": ["https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Adidas Running Shoes",
+    "description": "Lightweight running shoes for athletes",
+    "price": 5499,
+    "category": "Footwear",
+    "brand": "Adidas",
+    "stock": 24,
+    "images": ["https://images.unsplash.com/photo-1552346154-21d32810aba3?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Puma Sports Shoes",
+    "description": "Stylish sports shoes for daily use",
+    "price": 3999,
+    "category": "Footwear",
+    "brand": "Puma",
+    "stock": 18,
+    "images": ["https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Men's Casual Shirt",
+    "description": "Cotton casual shirt for men",
+    "price": 1299,
+    "category": "Clothing",
+    "brand": "Roadster",
+    "stock": 40,
+    "images": ["https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Women's Summer Dress",
+    "description": "Elegant summer dress for women",
+    "price": 1899,
+    "category": "Clothing",
+    "brand": "ONLY",
+    "stock": 22,
+    "images": ["https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Leather Handbag",
+    "description": "Premium everyday handbag",
+    "price": 2999,
+    "category": "Bags",
+    "brand": "Lavie",
+    "stock": 16,
+    "images": ["https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Travel Backpack",
+    "description": "Large backpack for travel and adventure",
+    "price": 2199,
+    "category": "Bags",
+    "brand": "Wildcraft",
+    "stock": 27,
+    "images": ["https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Fossil Analog Watch",
+    "description": "Classic analog wrist watch",
+    "price": 8999,
+    "category": "Accessories",
+    "brand": "Fossil",
+    "stock": 13,
+    "images": ["https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Leather Wallet",
+    "description": "Compact leather wallet for men",
+    "price": 999,
+    "category": "Accessories",
+    "brand": "Wildhorn",
+    "stock": 35,
+    "images": ["https://images.unsplash.com/photo-1627123424574-724758594e93?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Modern Table Lamp",
+    "description": "Decorative lamp for bedroom and living room",
+    "price": 1499,
+    "category": "Home",
+    "brand": "Home Centre",
+    "stock": 20,
+    "images": ["https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Office Chair",
+    "description": "Ergonomic chair for office and home",
+    "price": 7999,
+    "category": "Furniture",
+    "brand": "Green Soul",
+    "stock": 8,
+    "images": ["https://images.unsplash.com/photo-1505843490701-5be5d6f4c5d1?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Wooden Study Table",
+    "description": "Modern wooden study table",
+    "price": 5999,
+    "category": "Furniture",
+    "brand": "Wakefit",
+    "stock": 10,
+    "images": ["https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Coffee Maker",
+    "description": "Automatic coffee maker for home",
+    "price": 3499,
+    "category": "Home Appliances",
+    "brand": "Philips",
+    "stock": 14,
+    "images": ["https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Air Fryer",
+    "description": "Digital air fryer for healthy cooking",
+    "price": 6499,
+    "category": "Home Appliances",
+    "brand": "Philips",
+    "stock": 11,
+    "images": ["https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Electric Blender",
+    "description": "Kitchen blender for smoothies and juices",
+    "price": 2499,
+    "category": "Home Appliances",
+    "brand": "Prestige",
+    "stock": 19,
+    "images": ["https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Yoga Mat",
+    "description": "Non slip exercise and yoga mat",
+    "price": 899,
+    "category": "Fitness",
+    "brand": "Boldfit",
+    "stock": 45,
+    "images": ["https://images.unsplash.com/photo-1603988363607-e1e4a66962c5?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Dumbbell Set",
+    "description": "Home workout dumbbell set",
+    "price": 2499,
+    "category": "Fitness",
+    "brand": "Strauss",
+    "stock": 17,
+    "images": ["https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Football",
+    "description": "Durable football for outdoor sports",
+    "price": 1199,
+    "category": "Sports",
+    "brand": "Nivia",
+    "stock": 26,
+    "images": ["https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Basketball",
+    "description": "Official size basketball",
+    "price": 1499,
+    "category": "Sports",
+    "brand": "Spalding",
+    "stock": 15,
+    "images": ["https://images.unsplash.com/photo-1519861531473-9200262188bf?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Perfume for Men",
+    "description": "Long lasting fragrance for men",
+    "price": 1999,
+    "category": "Beauty",
+    "brand": "Wild Stone",
+    "stock": 32,
+    "images": ["https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Skincare Cream",
+    "description": "Daily moisturizing face cream",
+    "price": 599,
+    "category": "Beauty",
+    "brand": "Nivea",
+    "stock": 40,
+    "images": ["https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Sunglasses",
+    "description": "UV protection stylish sunglasses",
+    "price": 1599,
+    "category": "Accessories",
+    "brand": "Fastrack",
+    "stock": 21,
+    "images": ["https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Ceramic Dinner Set",
+    "description": "Elegant ceramic dinner set for family",
+    "price": 2499,
+    "category": "Home",
+    "brand": "Corelle",
+    "stock": 12,
+    "images": ["https://images.unsplash.com/photo-1603199506016-b9a594b593c0?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "Indoor Plant Pot",
+    "description": "Decorative planter for indoor plants",
+    "price": 499,
+    "category": "Home",
+    "brand": "Home Centre",
+    "stock": 38,
+    "images": ["https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800"],
+    "isActive": true
+  },
+  {
+    "name": "LED Desk Light",
+    "description": "Adjustable LED desk lamp for study",
+    "price": 799,
+    "category": "Home",
+    "brand": "Philips",
+    "stock": 29,
+    "images": ["https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800"],
+    "isActive": true
+  }
+]
