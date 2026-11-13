@@ -4,7 +4,15 @@
 import { useEffect, useState } from "react";
 import styles from "./ProductList.module.css";
 
-export default function ProductList() {
+type ProductListProps = {
+  search: string;
+  addToCart: (product: any) => void;
+};
+
+export default function ProductList({
+  search,
+  addToCart,
+}: ProductListProps) {
   const [products, setProducts] = useState<any[]>([]);
 
   useEffect(() => {
@@ -17,46 +25,56 @@ export default function ProductList() {
     fetchProducts();
   }, []);
 
-  
-return (
- <section id="products" className={styles.productsSection}>
-    <h2>Our Latest Products</h2>
+  // Filter products
+  const filteredProducts = products.filter((product) =>
+    `${product.name} ${product.brand}`
+      .toLowerCase()
+      .includes(search.toLowerCase())
+  );
 
-    <div className={styles.productsGrid}>
-      {products.map((product) => (
-        <div className={styles.productCard} key={product._id}>
-          <h3>{product.name}</h3>
+  return (
+    <section id="products" className={styles.productsSection}>
+      <h2>Our Latest Products</h2>
 
-          <img
-            className={styles.productImage}
-            src={
-              product.images?.[0] ||
-              "https://placehold.co/400x300?text=No+Image"
-            }
-            alt={product.name}
-          />
+      <div className={styles.productsGrid}>
+        {filteredProducts.length === 0 && (
+          <p>No products found.</p>
+        )}
 
-          <p className={styles.productPrice}>
-            ₹{product.price.toLocaleString("en-IN")}
-          </p>
+        {filteredProducts.map((product) => (
+          <div className={styles.productCard} key={product._id}>
+            <h3>{product.name}</h3>
 
-          <p className={styles.productDescription}>
-            {product.description}
-          </p>
+            <img
+              className={styles.productImage}
+              src={
+                product.images?.[0] ||
+                "https://placehold.co/400x300?text=No+Image"
+              }
+              alt={product.name}
+            />
 
-          <p>Brand: {product.brand}</p>
-          <p>Stock: {product.stock}</p>
+            <p className={styles.productPrice}>
+              ₹{product.price.toLocaleString("en-IN")}
+            </p>
 
-          <button
-            className={styles.addToCartButton}
-            type="button"
-          >
-            Add to Cart
-          </button>
-        </div>
-      ))}
-    </div>
-  </section>
-);
+            <p className={styles.productDescription}>
+              {product.description}
+            </p>
 
+            <p>Brand: {product.brand}</p>
+            <p>Stock: {product.stock}</p>
+
+            <button
+              className={styles.addToCartButton}
+              type="button"
+              onClick={() => addToCart(product)}
+            >
+              Add to Cart
+            </button>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }

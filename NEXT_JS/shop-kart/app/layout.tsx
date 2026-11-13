@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./components/Navbar";
 
+import { CartProvider } from "./context/cartContext";
 
 export const metadata: Metadata = {
   title: "ShopKart - Online Shopping",
   description: "Shop the latest products at the best prices.",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -16,9 +15,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-  <Navbar/>
-  {children}
-</body>
+        <CartProvider>
+          {children}
+        </CartProvider>
+      </body>
     </html>
   );
 }
